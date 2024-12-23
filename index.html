@@ -10,26 +10,63 @@
 
 <body>
     <header>
-        <h1>Serhat Bülbül</h1>
-        <p>Software Developer & Web Enthusiast</p>
+        <div class="container">
+            <h1>Serhat Bülbül</h1>
+            <p>Software Developer | Web Enthusiast | Lifelong Learner</p>
+        </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Welcome to my portfolio! Here, you can learn more about my work and experience.</p>
+        <p>I'm Serhat, a passionate software developer with a focus on web technologies. I enjoy working on full-stack
+            applications and constantly learning new technologies to improve my skills.</p>
     </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
+    <section id="education" class="container">
+        <h2>Education</h2>
         <ul>
-            <li>Project 1 - Description</li>
-            <li>Project 2 - Description</li>
-            <li>Project 3 - Description</li>
+            <li><strong>Bachelor's in Computer Science</strong> - University of Example (2015-2019)</li>
+            <li><strong>Master's in Software Engineering</strong> - University of Example (2020-2022)</li>
         </ul>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Serhat Bülbül</p>
+    <section id="work" class="container">
+        <h2>Work Experience</h2>
+        <ul>
+            <li><strong>Software Developer</strong> - Example Company (2020-Present)</li>
+            <li><strong>Junior Developer</strong> - Another Company (2019-2020)</li>
+        </ul>
+    </section>
+
+    <section id="hobbies" class="container">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Reading books on technology and personal growth</li>
+            <li>Traveling and exploring new cultures</li>
+            <li>Photography and digital art</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>My Projects</h2>
+        <ul>
+            <li>Project 1 - Description <button onclick="toggleProjectDetails('project1')">View Details</button>
+                <div id="project1" class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+            </li>
+            <li>Project 2 - Description <button onclick="toggleProjectDetails('project2')">View Details</button>
+                <div id="project2" class="project-details">Sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.</div>
+            </li>
+            <li>Project 3 - Description <button onclick="toggleProjectDetails('project3')">View Details</button>
+                <div id="project3" class="project-details">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris.</div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="container">
+        <p>&copy; 2024 Serhat Bülbül | <a href="mailto:serhat@example.com">Contact Me</a></p>
     </footer>
 
     <script src="script.js"></script>
